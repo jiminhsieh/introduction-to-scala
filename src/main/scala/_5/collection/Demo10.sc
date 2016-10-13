@@ -1,5 +1,8 @@
+import scala.annotation.tailrec
+
 val list = (0 until 9).toList
 def sumTail(list: List[Int]): Int = {
+  @tailrec
   def help(list: List[Int],
            previous: Int): Int = list match {
     case Nil => 0

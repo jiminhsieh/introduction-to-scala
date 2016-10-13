@@ -2,6 +2,7 @@ val list =
   List(4, 3, 0, 1, 2)
 list.head
 list.tail
+list.length
 list.max
 list.min
 list.sum
@@ -20,5 +21,7 @@ list.filter(x => x % 2 == 0)
 list.filter(_ % 2 == 0)
 list.groupBy(x => x % 2 == 0)
 list.groupBy(_ % 2 == 0)
+list.indices zip list
+list.zipWithIndex
 
 

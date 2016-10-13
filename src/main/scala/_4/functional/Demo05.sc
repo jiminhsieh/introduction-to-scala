@@ -1,5 +1,6 @@
+// High-order functions - Curry - 1
 def calculateTax(rate: BigDecimal => BigDecimal)
-               (salary: BigDecimal): BigDecimal = {
+                (salary: BigDecimal): BigDecimal = {
   rate(salary)
 }
 
