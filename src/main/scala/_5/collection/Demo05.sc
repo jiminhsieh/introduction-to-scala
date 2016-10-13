@@ -15,6 +15,7 @@ countryCode.get("Taiwan")
 countryCode("Canada")
 // None
 countryCode.get("Canada")
+// add
 countryCode + ("China" -> 86)
 // delete
 countryCode - ("Japan")
