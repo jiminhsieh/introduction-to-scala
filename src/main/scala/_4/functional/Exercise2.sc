@@ -1,5 +1,5 @@
-//def sum(fun: Int => Int): (Int, Int) => Int = ???
-def sum(fun: Int => Int)(big: Int, small: Int): Int = ???
+// hint: nest function
+def summation(fun: Int => Int): (Int, Int) => Int = ???
 
 def sumNumber = ???
 def sumCubes = ???
