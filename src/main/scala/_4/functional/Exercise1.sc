@@ -2,7 +2,7 @@ def summation(fun: Int => Int, start: Int, end: Int): Int = ???
 
 def number(n: Int): Int = ???
 def cube(n: Int): Int = ???
-// 5 * 4 * 3 * 2 * 1
+// factorial number: 5 * 4 * 3 * 2 * 1
 def factorial(n: Int): Int = ???
 
 def sumNumber(start: Int, end: Int): Int = ???
