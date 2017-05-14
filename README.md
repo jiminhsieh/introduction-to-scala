@@ -5,7 +5,6 @@ Scala Taiwan - https://gitter.im/ScalaTaiwan/ScalaTaiwan <br />
 Scala Taiwan Meetup - https://www.meetup.com/Scala-Taiwan-Meetup/
 
 #### Topic of Slides
-Location of Slides - src/main/resources (https://git.io/vX4YN)
 
 1. Why Scala?
 2. Scala concept
@@ -16,6 +15,8 @@ Location of Slides - src/main/resources (https://git.io/vX4YN)
 7. Collections
 8. Summary of Scala
 9. Further Reading & Reference
+
+Slides - [Introduction to Scala](src/main/resources/Introduction_to_Scala_for_JCConf.pdf)
 
 #### Special Thanks(By Alphabet)
 * [Pishen Tsai](https://github.com/pishen)
