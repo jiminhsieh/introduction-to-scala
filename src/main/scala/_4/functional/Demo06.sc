@@ -10,7 +10,7 @@ def usaTax = calculateTax(
   x =>
     if (x > 413201) x * 0.396
     else x * 0.3
-) _
+)(_)
 // Second way of Partially Applied Function
 def twTax: BigDecimal => BigDecimal = calculateTax(_ * 0.25)
 
