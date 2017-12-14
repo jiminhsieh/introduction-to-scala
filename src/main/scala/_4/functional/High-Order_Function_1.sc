@@ -3,7 +3,8 @@ def calculateTax(rate: BigDecimal => BigDecimal,
   rate(salary)
 }
 
-val usaTax = (salary: BigDecimal) => {
+val usaTax: BigDecimal => BigDecimal
+  = (salary: BigDecimal) => {
   if (salary > 413201)
     salary * 0.396
   else

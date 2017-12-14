@@ -1,3 +1,7 @@
+/*
+  While is expression too.
+  Although, it returns `Unit`
+*/
 var n = 10
 var sum = 0
 

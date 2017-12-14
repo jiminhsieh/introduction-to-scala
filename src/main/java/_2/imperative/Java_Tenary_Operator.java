@@ -3,7 +3,7 @@ package _2.imperative;
 /**
  * Created by jimin on 10/2/16.
  */
-public class Demo02 {
+public class Java_Tenary_Operator {
     public static void main(String[] args) {
         // Java version
         final int value = -1;

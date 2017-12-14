@@ -1,4 +1,7 @@
-// for-comprehensions
+/*
+  Advanced Option
+  @see http://danielwestheide.com/blog/2012/12/19/the-neophytes-guide-to-scala-part-5-the-option-type.html
+ */
 
 case class People(
                    id: String,
@@ -9,7 +12,6 @@ case class People(
                    gender: Option[String]
                  )
 
-
 object PeopleRepository {
   private val peoples = Map(
     1 -> People("1", "John", "Doe", 30, List("TW", "USA"), Some("male")),
@@ -17,17 +19,22 @@ object PeopleRepository {
     3 -> People("3", "", "Doe", 50, List("TW"), None))
 
   def find(id: Int): Option[People] = peoples.get(id)
-
   def getAll = peoples.values
 }
 
-// List of People has TW passport
-for {
-  people <- PeopleRepository.getAll
-  if (people.countries.contains("TW"))
-} yield people
+PeopleRepository.find(5)
 
-(for {
-  people <- PeopleRepository.getAll
-  country <- people.countries
-} yield country).toSet
+for {
+  people <- PeopleRepository.find(2)
+  gender <- people.gender
+} yield gender
+// Some(female)
+for {
+  people <- PeopleRepository.find(3)
+  gender <- people.gender
+} yield gender
+// None
+for {
+  people <- PeopleRepository.find(4)
+  gender <- people.gender
+} yield gender

@@ -1,5 +1,5 @@
 def calculateTax(rate: BigDecimal => BigDecimal)
-: (BigDecimal) => BigDecimal = {
+: BigDecimal => BigDecimal = {
   rate
 }
 
