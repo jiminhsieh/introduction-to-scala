@@ -1,10 +1,7 @@
-### Introduction to Scala for 2016 JCConf
-Workshop for 2016 JCConf - http://jcconf.tw/2016/ <br />
-Java Community Conference Taiwan - https://www.facebook.com/jcconf <br />
-Scala Taiwan Gitter - https://gitter.im/ScalaTaiwan/ScalaTaiwan <br />
-Scala Taiwan Meetup - https://www.meetup.com/Scala-Taiwan-Meetup/
+# Introduction to Scala - 2017
+This version of **Introduction to Scala** is based on [2016 version](https://github.com/jiminhsieh/introduction-to-scala/tree/2016) which was used for [JCConf Taiwan](https://www.facebook.com/jcconf).  
 
-#### Topic of Slides
+# Topic of Slides
 
 1. Why Scala?
 2. Scala concept
@@ -14,18 +11,10 @@ Scala Taiwan Meetup - https://www.meetup.com/Scala-Taiwan-Meetup/
 6. Functional
 7. Collections
 8. Summary of Scala
-9. Further Reading & Reference
+9. Appendix
+10. Further Reading & Reference
 
-Slides - [Introduction to Scala](src/main/resources/Introduction_to_Scala_for_JCConf.pdf)
-
-#### Special Thanks(By Alphabet)
-* [Pishen Tsai](https://github.com/pishen)
-* [Vito Jeng](https://github.com/vitojeng)
-* [Walter Chang](https://twitter.com/weihsiu)
-    * Thanks for the most pull requests!!!
-* [Zanyking](http://zanyking.blogspot.tw)
-
-#### Reference
+# Reference
 * [Learning Scala by Jason Swartz](http://shop.oreilly.com/product/0636920030287.do)
 * [Scala for the Impatient by Cay S. Horstmann](http://www.informit.com/store/scala-for-the-impatient-9780321774095)
 * [Programming in Scala, 3rd by Martin Odersky, Lex Spoon, and Bill Venners](https://www.artima.com/shop/programming_in_scala_3ed)

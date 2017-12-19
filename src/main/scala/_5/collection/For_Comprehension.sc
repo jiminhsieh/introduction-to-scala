@@ -1,4 +1,7 @@
-// Advanced Option
+/*
+  for-comprehensions with Option
+  http://docs.scala-lang.org/style/control-structures.html#comprehensions
+ */
 
 case class People(
                    id: String,
@@ -17,24 +20,17 @@ object PeopleRepository {
     3 -> People("3", "", "Doe", 50, List("TW"), None))
 
   def find(id: Int): Option[People] = peoples.get(id)
+
   def getAll = peoples.values
 }
 
-PeopleRepository.find(5)
+// List of People has TW passport
+for {
+  people <- PeopleRepository.getAll
+  if (people.countries.contains("TW"))
+} yield people
 
-
-// None
-for {
-  people <- PeopleRepository.find(2)
-  gender <- people.gender
-} yield gender
-// Some(female)
-for {
-  people <- PeopleRepository.find(3)
-  gender <- people.gender
-} yield gender
-// None
-for {
-  people <- PeopleRepository.find(4)
-  gender <- people.gender
-} yield gender
+(for {
+  people <- PeopleRepository.getAll
+  country <- people.countries
+} yield country).toSet

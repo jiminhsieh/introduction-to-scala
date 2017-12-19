@@ -1,3 +1,7 @@
+/*
+  Block Expression
+ */
+
 val n = 5
 val factorial = {
   var result = 1

@@ -7,8 +7,8 @@ case class Value(n: Int) extends Expr
 
 def calculate(combination: Expr): Int = {
   combination match {
+      // (x * n) + (y * n) = (x + y) * n
     case Add(Multi(a, x), Multi(b, y)) if (x == y) =>
-      // (3 + 4) * 2
       (calculate(a) + calculate(b)) * calculate(x)
     case Add(first, second) =>
       calculate(first) + calculate(second)

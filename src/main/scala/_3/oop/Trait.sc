@@ -1,5 +1,7 @@
-// Trait - Mixin
-
+/*
+  Trait - Mixin
+  https://scalafiddle.io/sf/i3KWOvf/0
+*/
 trait Iterator[A] {
   def hasNext: Boolean
   def next: A
