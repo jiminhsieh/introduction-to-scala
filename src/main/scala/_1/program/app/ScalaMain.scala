@@ -11,9 +11,11 @@ object ScalaMain {
   def main(args: Array[String]): Unit = {
     println("Hello everybody!")
     print("Welcome to " + todayEvent + "!\n")
-    println("I hope you can enjoy - "
-      + workshop + ". :)")
-    print("Scala is so much " +
-      funStream.take(5).mkString(" ") + "!")
+    println(
+      "I hope you can enjoy - "
+        + workshop + ". :)")
+    print(
+      "Scala is so much " +
+        funStream.take(5).mkString(" ") + "!")
   }
 }

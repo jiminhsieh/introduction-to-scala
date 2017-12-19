@@ -10,7 +10,8 @@ object ScalaApp extends App {
 
   println("Hello everybody!")
   print("Welcome to " + todayEvent + "!\n")
-  println("I hope you can enjoy this workshop - "
-    + workshop + ". :)")
+  println(
+    "I hope you can enjoy this workshop - "
+      + workshop + ". :)")
   print("Scala is so much " + fun + "!")
 }
