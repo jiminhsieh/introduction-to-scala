@@ -1,5 +1,6 @@
 /*
   implicit class
+  syntax sugar of implicit method
  */
 
 implicit class MyInteger(n: Int) {
