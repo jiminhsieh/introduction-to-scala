@@ -1,3 +1,8 @@
+/*
+  If you are interested in this,
+  you could find `subtyping` and `Liskov substitution principle` for more information.
+ */
+
 sealed abstract class Animal(val name: String) {
   val footNumber: Integer
   val fly: Boolean
