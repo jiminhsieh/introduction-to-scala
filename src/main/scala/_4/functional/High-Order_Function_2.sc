@@ -14,3 +14,4 @@ def twTax(salary: BigDecimal) =
 
 usaTax(413202)
 twTax(100)
+

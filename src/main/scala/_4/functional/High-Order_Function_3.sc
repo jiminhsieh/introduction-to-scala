@@ -14,3 +14,4 @@ twTax(100)
 
 calculateTax(usaTax)(413202)
 calculateTax(twTax)(100)
+
