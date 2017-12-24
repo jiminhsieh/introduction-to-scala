@@ -14,6 +14,10 @@ This version of **Introduction to Scala** is based on [2016 version](https://git
 9. Appendix
 10. Further Reading & Reference
 
+Slides:
+* [Introduction to Scala](src/main/resources/Introduction%20to%20Scala%20-%202017.pdf)
+* [IntelliJ with Scala](src/main/resources/IntelliJ%20with%20Scala.pdf)
+
 # Reference
 * [Learning Scala by Jason Swartz](http://shop.oreilly.com/product/0636920030287.do)
 * [Scala for the Impatient by Cay S. Horstmann](http://www.informit.com/store/scala-for-the-impatient-9780321774095)
